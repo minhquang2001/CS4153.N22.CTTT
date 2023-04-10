@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Google"
+        android:id="@+id/btn_google"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Phone"
+        android:id="@+id/btn_phone"
+        android:layout_below="@id/btn_google"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open mess"
+        android:id="@+id/btn_mess"
+        android:layout_below="@id/btn_phone"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Wiffi"
+        android:id="@+id/btn_setting"
+        android:layout_below="@id/btn_mess"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open contact"
+        android:id="@+id/btn_contact"
+        android:layout_below="@id/btn_setting"
+        />
+
+
+</RelativeLayout>
